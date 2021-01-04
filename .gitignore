@@ -1,15 +1,34 @@
-# Generated website directory
+# Jekyll
 _site/
-
-# Sass cache
 .sass-cache/
-
-# Jekyll cache & metadata
 .jekyll-cache/
 .jekyll-metadata
 
 # Notes graph metadata
 _includes/notes_graph.json
 
+# Backup files
+*.bak
+*.ori
+*.tmp
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+Session.vim
+
+# Sublime Text
+*.sublime-workspace
+sftp-config.json
+GitHub.sublime-settings  # package stores token in file
+
 # Obsidian config
 .obsidian/
+
+# Personal
+private/
+templates/
+collections/_notes/ref/
