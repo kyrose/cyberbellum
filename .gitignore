@@ -29,6 +29,4 @@ GitHub.sublime-settings  # package stores token in file
 .obsidian/
 
 # Personal
-private/
-templates/
-collections/_notes/ref/
+_notes/\_**/
