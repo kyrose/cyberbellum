@@ -42,13 +42,25 @@ collections:
   notes:
     output: true
     permalink: /:slug
+    sort_by: lastmod
+  prompts:
+    output: true
+    permalink: /:collection/:name
 
 defaults:
-  - scope:
+  -
+    scope:
       path: "**/*"
     values:
       layout: "default"
-  - scope:
+  -
+    scope:
       path: "_notes/**/*.md"
     values:
       layout: "note"
+  -
+    scope:
+      path: ""
+      type: "prompts"
+    values:
+      layout: "prompt"
