@@ -1,0 +1,14 @@
+@mixin linear-gradient($color1, $color2, $color1-opacity:1, $color2-opacity:1) {
+  background: -webkit-linear-gradient($color1, $color2);
+  background: linear-gradient(180deg, rgba($color1, $color1-opacity) 0%, rgba($color2, $color2-opacity) 100%);
+}
+
+@mixin text-gradient($color1, $color2, $color1-opacity:1, $color2-opacity:1) {
+  @include linear-gradient($color1, $color2, $color1-opacity, $color2-opacity);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@mixin text-fade-gradient($color) {
+  @include text-gradient($color, $color, 1, 0);
+}

@@ -1,0 +1,40 @@
+ul, ol {
+  margin: 0 0 0 2rem;
+
+  li {
+    margin-bottom: .25em;
+  }
+}
+
+ul {
+  list-style: '—';
+
+  ul {
+    margin: 0 0 0 1.5rem;
+    list-style: circle;
+  }
+
+  ol {
+    margin: 0 0 0 1.5rem;
+    list-style: decimal-leading-zero;
+  }
+}
+
+ol {
+  list-style: decimal-leading-zero;
+
+  ol {
+    margin: 0 0 0 1.5rem;
+    list-style: lower-alpha;
+  }
+
+  ul {
+    margin: 0 0 0 1.5rem;
+    list-style: '-';
+  }
+}
+
+// Navigation lists
+nav ul, nav ol {
+  list-style: none;
+}

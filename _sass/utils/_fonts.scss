@@ -1,0 +1,17 @@
+
+
+// Covik Sans Mono (body)
+@include font-face(coviksans-mono, coviksansmono-regular) {
+  font-weight: normal;
+  font-weight: 400;
+}
+@include font-face(coviksans-mono, coviksansmono-bold) {
+  font-weight: bold;
+  font-weight: 700;
+}
+
+// Digestive Two (brand)
+@include font-face(digestive-two, digestive-two);
+
+// Digestive Small (brand -- footer)
+@include font-face(digestive-small, digestive-small);

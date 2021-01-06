@@ -1,0 +1,17 @@
+$title-type-scales: ('xxl':4, 'xl':3.5, 'lg':3, 'md':2.5, 'sm':2, 'xs':1.5, 'xxs':1);
+
+@each $type-scale, $coefficient in $title-type-scales {
+  .title-text-#{$type-scale} {
+    font-size: (16px * $coefficient);
+    font-size: #{$coefficient}rem;
+  }
+}
+
+/**
+  * utils/_functions.scss
+  * * Convert pixel units to rems;
+  */
+@function remify($pixels, $base-size:16px) {
+  $rems: #{$pixels / $base-size};
+  @return $rems * 1rem;
+}

@@ -1,0 +1,28 @@
+/**
+  * Blockquotes and their citations
+  *
+  * Declaration order guidelines:
+  * * Positioning: position, z-index, top, right, bottom, left
+  * * Display & box model: display, overflow, box-sizing, width, height, padding, border, margin
+  * * Other: background, color, fonts...
+  */
+
+blockquote {
+  border-left: 2px solid $blockquote-border-color;
+  font-size: $body-size-xl;
+  font-style: italic;
+  margin: $spacing-lg auto;
+  padding: $spacing-sm $spacing-lg;
+
+  cite {
+    font-size: $body-size-xs;
+
+    &::before {
+      content: '— ';
+    }
+  }
+
+  & > :last-child {
+    margin-bottom: 0;
+  }
+}

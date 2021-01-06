@@ -1,0 +1,44 @@
+/**
+  * Styles for headings
+  *
+  * Declaration order guidelines:
+  * * Positioning: position, z-index, top, right, bottom, left
+  * * Display & box model: display, overflow, box-sizing, width, height, padding, border, margin
+  * * Other: background, color, fonts...
+  */
+
+h1, h2, h3, h4, h5, h6 {
+  @include heading-font-family;
+  margin: 0 0 .5em;
+}
+
+h1 {
+  @include title-text-xxl;
+  margin-bottom: .25em;
+}
+
+h2 {
+  @include title-text-xl;
+
+  margin-bottom: .45em;
+}
+
+h3 {
+  @include title-text-lg;
+}
+
+h4 {
+  @include title-text-md;
+}
+
+h5 {
+  @include title-text-sm;
+}
+
+h6 {
+  @include title-text-xs;
+}
+
+.site-title {
+  @include text-fade-gradient(#d8e80c);
+}

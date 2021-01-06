@@ -1,0 +1,60 @@
+//* -------------------------------------------------------------------------- */
+// Font stacks
+$font-stack-base: "Xanh Mono", monospace;
+$font-stack-heading: $font-stack-base;
+$font-stack-special: digestive-two;
+$font-stack-mono: $font-stack-base;
+
+//* -------------------------------------------------------------------------- */
+// Colors
+$color-black: #000;
+$color-white: #fff;
+$color-grey: #3d434a;
+$color-chartreuse: #d8e80c;
+$color-chartreuse-dark: #9da909;
+$color-chartreuse-light: #f2f994;
+$color-sea-green: #9bcba1;
+$color-teal-dark: #006450;
+$color-teal: #058779;
+
+// Applied palette
+$background-color: $color-sea-green;
+$border-color: $color-grey;
+$text-color: $color-black;
+$link-color: $color-black;
+$link-border-color: $color-black;
+$blockquote-border-color: $color-teal-dark;
+
+//* -------------------------------------------------------------------------- */
+// Breakpoints
+$mq-xs: (min-width: 320px);
+$mq-sm: (min-width: 480px);
+$mq-md: (min-width: 768px);
+$mq-lg: (min-width: 1024px);
+$mq-xl: (min-width: 1312px);
+
+//* -------------------------------------------------------------------------- */
+// Spacing elements
+$spacing-xxl: 3rem;
+$spacing-xl:  2rem;
+$spacing-lg:  1.5rem;
+$spacing-md:  1rem;
+$spacing-sm:  .5rem;
+$spacing-xs:  .25rem;
+
+//* -------------------------------------------------------------------------- */
+// Type scale
+$title-size-xxl: 4rem;    // 64px;
+$title-size-xl: 3.5rem;   // 56px;
+$title-size-lg: 3rem;     // 48px;
+$title-size-md: 2.5rem;   // 40px;
+$title-size-sm: 2rem;     // 32px;
+$title-size-xs: 1.5rem;   // 24px;
+$title-size-xxs: 1.25rem; // 20px;
+
+$body-size-xl: 20px;
+/* $body-size-lg: 18px; */
+$body-size-md: 16px;
+/* $body-size-sm: 14px; */
+$body-size-xs: 12px;
+$body-line-height: 1.5;
