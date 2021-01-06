@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<main class="notes-index">
+  <ul class="boxy-grid notes">
+    {% for note in site.notes %}
+    {% if status != 'draft' %}
+    <li class="boxy-item note">
+      <div class="the-box">
+        <!-- title -->
+        <div class="note-title-wrapper">
+          <h3 class="note-title">{{ note.title }}</h3>
+        </div>
+
+        <!-- description -->
+        <div class="note-description-wrapper">
+          <span class="note-description">{{ note.description }}</span>
+        </div>
+
+        <!-- readmore -->
+        <div class="note-link-wrapper">
+          <a href="" class="note-link readmore">Read more</a>
+        </div>
+      </div>
+    </li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+</main>
