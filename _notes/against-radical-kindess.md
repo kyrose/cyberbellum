@@ -2,7 +2,7 @@
 lastmod: 2020-12-20T12:36:10-08:00
 title: On radical kindness
 description:
-status: draft
+published: false
 ---
 
 I do not like the term [radical kindness](https://www.radicalkindness.com/index.html). Kindness should not be a radical act it should be expected.

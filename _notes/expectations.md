@@ -2,7 +2,7 @@
 lastmod: 2020-12-13T10:23:01-08:00
 title: Expectations
 description:
-status: draft
+published: false
 ---
 
 "...high expectations of popular art's power to challenge, enlighten, and heal; and [the] adamant refusal to settle for less."
