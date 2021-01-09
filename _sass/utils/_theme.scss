@@ -12,6 +12,11 @@ $link-block-background-hover: $color-teal-dark;
 $link-block-text-hover: $color-white;
 $blockquote-border-color: $color-teal-dark;
 
+$map-text: $color-black;
+$map-node: $color-chartreuse;
+$map-node-active: $color-orange;
+$map-line: $color-grey;
+
 /*// Inverse
 $background-color-inverse: $color-ink-80;
 $border-color-inverse: $color-white;
@@ -25,3 +30,5 @@ $link-color-hover-inverse: $color-blue-05;
 // Fonts
 $body-font-family: $font-stack-base;
 $title-font-family: $font-stack-title;
+
+$border: 1px solid $border-color;

@@ -1,0 +1,44 @@
+.map-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-top: $border;
+  border-bottom: $border;
+  background-image: url("https://seed.com/wp-content/uploads/2018/05/00_HLP_Bacteria_test_02-2048x1150.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.map {
+  .links line {
+  stroke: $map-line;
+  opacity: 0.5;
+}
+
+  .nodes {
+    circle {
+    cursor: pointer;
+    fill: $map-node;
+    transition: all 0.15s ease-out;
+  }
+
+  [active] {
+    fill: $map-node-active;
+  }
+}
+
+  .text {
+    cursor: pointer;
+    fill: $color-black;
+  }
+
+  .nodes [active],
+  .text [active] {
+    cursor: pointer;
+  }
+
+  .inactive {
+    opacity: 0.1;
+    transition: all 0.15s ease-out;
+  }
+}
