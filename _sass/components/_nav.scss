@@ -4,16 +4,23 @@ nav ul, nav ol {
   padding: 0;
 }
 
-.links {
+.menu {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+
+  @media #{$mq-md} {
+    justify-content: flex-start;
+  }
 }
 
-.link-item {
+.menu-item {
   a {
     text-decoration: none;
   }
 
-  & + .link-item {
+  & + .menu-item {
     margin-left: 4rem;
   }
 }
