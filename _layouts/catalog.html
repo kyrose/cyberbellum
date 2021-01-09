@@ -2,11 +2,11 @@
 layout: default
 ---
 
+{{ content }}
+
 <main class="grid-wrapper">
   <ul class="grid">
     {% for note in site.notes %}
-    {% if page.permalink == '/' %}
-      {% if note.post == true %}
     <li class="grid-item">
       <a class="item-container" href="{{ note.url }}">
         <!-- title -->
@@ -18,20 +18,6 @@ layout: default
         </div>
       </a>
     </li>
-      {% endif %}
-    {% elsif page.permalink == '/working-notes' %}
-    <li class="grid-item">
-      <a class="item-container" href="{{ note.url }}">
-        <!-- title -->
-        <h3 class="title">{{ note.title }}</h3>
-
-        <!-- description -->
-        <div class="description">
-          {{ note.summary }}
-        </div>
-      </a>
-    </li>
-    {% endif %}
     {% endfor %}
   </ul>
 </main>
