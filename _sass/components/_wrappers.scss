@@ -1,0 +1,12 @@
+/**
+  * Content wrappers
+  *
+  * Declaration order guidelines:
+  * * Positioning: position, z-index, top, right, bottom, left
+  * * Display & box model: display, overflow, box-sizing, width, height, padding, border, margin
+  * * Other: background, color, fonts...
+  */
+
+.wrapper {
+  margin-bottom: 3rem;
+}
