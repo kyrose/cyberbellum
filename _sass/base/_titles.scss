@@ -8,8 +8,15 @@
   */
 
 h1, h2, h3, h4, h5, h6 {
-  @include heading-font-family;
   margin: 0 0 .5em;
+  font-family: $title-font-family;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.logo {
+  @include logo-type;
+  color: $logo-text-color;
 }
 
 h1 {
@@ -19,7 +26,6 @@ h1 {
 
 h2 {
   @include title-text-xl;
-
   margin-bottom: .45em;
 }
 
@@ -29,16 +35,18 @@ h3 {
 
 h4 {
   @include title-text-md;
+
+  &::before {
+    content: '⸺';
+  }
 }
 
-h5 {
+h5, h6 {
   @include title-text-sm;
+  font-style: normal;
+  text-transform: uppercase;
 }
 
 h6 {
-  @include title-text-xs;
-}
-
-.site-title {
-  @include text-fade-gradient(#d8e80c);
+  color: $color-grey;
 }
