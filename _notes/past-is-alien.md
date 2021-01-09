@@ -1,6 +1,6 @@
 ---
 title: '"The Past is an Alien Planet"'
-published: true
+summary: separation in time
 ---
 
 The word "alien" invokes images of the midnight expanses of space, unfathomable distances, faraway planets. To be alien, it would seem, means to be separated by distance. But distance isn't the only thing that creates differences that would make us alien to another: time does the very same.

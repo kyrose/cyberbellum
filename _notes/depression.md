@@ -1,8 +1,7 @@
 ---
 lastmod: 2020-12-11T16:54:38-08:00
 title: The Poetry of Depression
-description:
-published: false
+summary:
 ---
 
 After a break, I've returned to [[Mark Fisher]]'s _Ghosts Of My Life_; a book I'm not even 100 pages in, but a book I can already feel the influence of.
