@@ -1,10 +1,9 @@
 .grid-wrapper>ul{
-  margin: 1rem 0 0;
+  margin: 0;
   list-style: none;
 }
 
 .grid {
-  @include border-bottom;
   z-index: 3;
   position: relative;
   display: flex;
@@ -23,6 +22,10 @@
 
   &:last-child {
     border-right: 1px solid $color-grey;
+  }
+
+  &:nth-child(-n+4) {
+    border-top: none;
   }
 
   @media #{$mq-md} {
