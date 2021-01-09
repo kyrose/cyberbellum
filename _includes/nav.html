@@ -1,4 +1,9 @@
 <ul class="menu">
+  {% if page.permalink != '/' %}
+  <li class="menu-item">
+    <a href="/">Home</a>
+  </li>
+  {% endif %}
   <li class="menu-item">
     <a href="/about">About</a>
   </li>

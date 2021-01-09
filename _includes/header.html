@@ -2,6 +2,7 @@
   <nav class="header-nav row">
     {% include nav.html %}
   </nav>
+  {% if page.permalink=="/" %}
   <div class="header-logo row">
     <span class="logo">c</span>
     <span class="logo">y</span>
@@ -14,6 +15,6 @@
     <span class="logo">l</span>
     <span class="logo">u</span>
     <span class="logo">m</span>
-    <!-- <h1 class="logo">{{site.title}}</h1> -->
   </div>
+  {% endif %}
 </header>
