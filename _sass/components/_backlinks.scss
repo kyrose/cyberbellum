@@ -1,0 +1,35 @@
+.backlinks {
+  display: flex;
+  flex-flow: column;
+}
+
+.backlink-box {
+  @include box-shadow;
+  overflow: hidden;
+  border: $border;
+  width: 100%;
+  height: 250px;
+
+  a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    background-color: $backlink-box-color;
+    color: $backlink-text-color;
+    transition: color .5s ease, background-color .5s ease;
+
+    &:hover {
+      background-color: $backlink-box-color-hover;
+      color: $backlink-text-color-hover;
+    }
+  }
+
+  h3 {
+    @include title-text-sm;
+  }
+
+  .backlink-excerpt {
+    font-size: .8rem;
+  }
+}

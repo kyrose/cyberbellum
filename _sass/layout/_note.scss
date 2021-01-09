@@ -1,0 +1,22 @@
+#note {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "article article article article"
+    "sidebar sidebar sidebar sidebar";
+
+  @media #{$mq-md} {
+    grid-template-areas:
+      "article article article sidebar"
+  }
+
+  article {
+    grid-area: article;
+  }
+
+  aside {
+    grid-area: sidebar;
+  }
+}
