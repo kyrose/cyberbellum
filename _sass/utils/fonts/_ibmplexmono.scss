@@ -1,0 +1,16 @@
+@include font-face-full(IBM Plex Mono, IBM-Plex-Mono/IBMPlexMono-Regular);
+
+@include font-face-full(IBM Plex Mono, IBM-Plex-Mono/IBMPlexMono-Italic) {
+  font-style: italic;
+}
+
+@include font-face-full(IBM Plex Mono, IBM-Plex-Mono/IBMPlexMono-Bold) {
+  font-weight: bold;
+  font-weight: 700;
+}
+
+@include font-face-full(IBM Plex Mono, IBM-Plex-Mono/IBMPlexMono-BoldItalic) {
+  font-style: italic;
+  font-weight: bold;
+  font-weight: 700;
+}
