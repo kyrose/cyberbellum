@@ -13,9 +13,7 @@ html {
 }
 
 body {
-  @include body-font-family;
-  // background: $background-color;
-  color: $text-color;
+  @include body-font;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }

@@ -9,20 +9,16 @@
 
 blockquote {
   border-left: 2px solid $blockquote-border-color;
-  font-size: $body-size-xl;
+  font-size: $body-xl-size;
   font-style: italic;
   margin: $spacing-lg auto;
   padding: $spacing-sm $spacing-lg;
 
   cite {
-    font-size: $body-size-xs;
+    font-size: $body-xs-size;
 
     &::before {
       content: '— ';
     }
-  }
-
-  & > :last-child {
-    margin-bottom: 0;
   }
 }
