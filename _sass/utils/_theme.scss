@@ -17,6 +17,11 @@ $map-node: $color-chartreuse;
 $map-node-active: $color-orange;
 $map-line: $color-grey;
 
+$backlink-box-color: $color-chartreuse;
+$backlink-box-color-hover: $color-teal;
+$backlink-text-color: darken($color-teal-dark, 5%);
+$backlink-text-color-hover: $color-white;
+
 /*// Inverse
 $background-color-inverse: $color-ink-80;
 $border-color-inverse: $color-white;
@@ -32,3 +37,7 @@ $body-font-family: $font-stack-base;
 $title-font-family: $font-stack-title;
 
 $border: 1px solid $border-color;
+
+@mixin box-shadow {
+  box-shadow: rgba($color-grey, 0.3) 0px 3px 5px;;
+}

@@ -1,22 +1,47 @@
-#note {
+.page-wrapper {
   display: grid;
-  grid-gap: 1rem;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
   grid-template-areas:
     "article article article article"
     "sidebar sidebar sidebar sidebar";
+  border-bottom: $border;
 
   @media #{$mq-md} {
     grid-template-areas:
       "article article article sidebar"
   }
 
-  article {
+  .note-wrapper {
     grid-area: article;
+    border-right: $border;
   }
 
-  aside {
+  .backlinks-wrapper {
     grid-area: sidebar;
   }
+}
+
+.note, .backlinks {
+  padding: 2rem;
+
+  @media #{$mq-md} {
+    padding: 2rem 4rem;
+  }
+}
+
+.note-meta {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items:center;
+
+  @media #{$mq-md} {
+    flex-flow: row;
+    justify-content: space-between;
+  }
+}
+
+.note-content {
+  text-align: justify;
 }
