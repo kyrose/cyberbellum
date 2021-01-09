@@ -2,8 +2,17 @@
   z-index: 100;
   position: sticky;
   top: 0;
+  display: flex;
+  flex-flow: column-reverse;
   width: 100%;
+  margin: 5px 0 0;
+  border-top: $border;
   background: rgba($background-color, .8);
+
+  @media #{$mq-md} {
+    flex-flow: column;
+    margin-top: 0;
+  }
 
   .row {
     padding-right: 1rem;
@@ -16,28 +25,28 @@
 }
 
 .header-nav {
-  @include border-bottom;
   display: flex;
   justify-content: space-between;
+  border-bottom: $border;
   padding-top: .5rem;
   padding-bottom: .5rem;
   font-size: .875rem;
-
-  a:hover {
-    color: $nav-color-hover;
-  }
-
-  .home {
-    color: $color-chartreuse;
-    font-family: Digestive-small;
-  }
 }
 
 .header-logo {
   @include border-bottom;
-  display: flex;
-  justify-content: space-between;
   width: 100%;
+
+  a {
+    display: flex;
+    justify-content: space-between;
+    color: $logo-text-color;
+    transition: color 1s ease;
+
+    &:hover, &:active {
+      color: $color-teal;
+    }
+  }
 
   .logo {
     margin-bottom: -0.0875em;

@@ -1,11 +1,11 @@
 //* -------------------------------------------------------------------------- */
 // Adaptive display/title/heading fonts
 @mixin title-text-xxl {
-  font-size: $title-xl-size;
+  font-size: $title-xxl-size;
   line-height: 1;
 
   @media #{$mq-md} {
-    font-size: $title-xxl-size;
+    font-size: $title-3xl-size;
   }
 }
 

@@ -126,25 +126,25 @@
 
       const graphWrapper = document.getElementById('graph-wrapper')
       const element = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-      element.setAttribute("width", graphWrapper.getBoundingClientRect().width);
+      // element.setAttribute("width", graphWrapper.getBoundingClientRect().width);
       element.setAttribute("height", window.innerHeight * 0.8);
       graphWrapper.appendChild(element);
 
       const reportWindowSize = () => {
-        element.setAttribute("width", window.innerWidth);
+        // element.setAttribute("width", window.innerWidth);
         element.setAttribute("height", window.innerHeight);
       };
 
       window.onresize = reportWindowSize;
 
       const svg = d3.select("svg");
-      const width = Number(svg.attr("width"));
+      // const width = Number(svg.attr("width"));
       const height = Number(svg.attr("height"));
       let zoomLevel = 1;
 
       const simulation = d3
         .forceSimulation(nodesData)
-        .force("forceX", d3.forceX().x(width / 2))
+        // .force("forceX", d3.forceX().x(width / 2))
         .force("forceY", d3.forceY().y(height / 2))
         .force("charge", d3.forceManyBody())
         .force(
@@ -154,7 +154,7 @@
             .id((d) => d.id)
             .distance(70)
         )
-        .force("center", d3.forceCenter(width / 2, height / 2))
+        // .force("center", d3.forceCenter(width / 2, height / 2))
         .force("collision", d3.forceCollide().radius(80))
         .stop();
 
