@@ -1,17 +1,11 @@
 <ul class="menu">
   <li class="menu-item">
-    <a href="/about">About</a>
+    <a {% if page.permalink=='/about' %}class="active"{% endif %}href="/about">About</a>
   </li>
   <li class="menu-item">
-    <a href="/library">Library</a>
+    <a {% if page.permalink=='/library' %}class="active"{% endif %}href="/library">Library</a>
   </li>
   <li class="menu-item">
-    <a href="/antilibrary">Anti-library</a>
+    <a {% if page.permalink=='/antilibrary' %}class="active"{% endif %}href="/antilibrary">Anti-library</a>
   </li>
 </ul>
-
-{% if page.permalink != '/' %}
-<div class="menu-item home">
-  <a href="/">{{ site.title }}</a>
-</div>
-{% endif %}
