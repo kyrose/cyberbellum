@@ -1,0 +1,42 @@
+/* FONT-FACE RULE HELPERS */
+/**
+  * Font-face rules with various levels of browser support
+  *
+  * Usage:
+  * * @include font-face($name, $file);
+  * * $name: the font-family name
+  * * $file: path to file without extension
+  * * * DO NOT INCLUDE EXT, MIXIN DOES THAT FOR YOU
+* */
+// Practical browser support: woff and woff2 are the norm
+@mixin font-face($name, $file) {
+  @font-face {
+    font-family: "#{$name}";
+    src: url("../assets/fonts/#{$file}.woff2") format("woff2"),
+         url("../assets/fonts/#{$file}.woff") format("woff");
+    @content;
+  }
+}
+
+// Slightly deeper browser support
+@mixin font-face-compat($name, $file) {
+  @font-face {
+    font-family: "#{$name}";
+    src: url("../assets/fonts/#{$file}.woff2") format("woff2"),
+         url("../assets/fonts/#{$file}.woff") format("woff"),
+         url("../assets/fonts/#{$file}.ttf") format("truetype");
+    @content;
+  }
+}
+
+// Full browser support (fuckin' IE)
+@mixin font-face-full($name, $file) {
+  @font-face {
+    font-family: "#{$name}";
+    src: url("../assets/fonts/#{$file}.eot");
+    src: url("../assets/fonts/#{$file}.eot?#iefix") format("embedded-opentype"),
+         url("../assets/fonts/#{$file}.woff") format("woff"),
+         url("../assets/fonts/#{$file}.ttf") format("truetype");
+    @content;
+  }
+}

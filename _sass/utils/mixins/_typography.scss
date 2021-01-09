@@ -1,110 +1,73 @@
-/* FONT-FACE RULE HELPERS */
-/**
-  * Font-face rules with various levels of browser support
-  *
-  * Usage:
-  * * @include font-face($name, $file);
-  * * $name: the font-family name
-  * * $file: path to file without extension
-  * * * DO NOT INCLUDE EXT, MIXIN DOES THAT FOR YOU
-* */
-// Practical browser support: woff and woff2 are the norm
-@mixin font-face($name, $file) {
-  @font-face {
-    font-family: "#{$name}";
-    src: url("../assets/fonts/#{$file}.woff2") format("woff2"),
-         url("../assets/fonts/#{$file}.woff") format("woff");
-    @content;
-  }
-}
-
-// Slightly deeper browser support
-@mixin font-face-compat($name, $file) {
-  @font-face {
-    font-family: "#{$name}";
-    src: url("../assets/fonts/#{$file}.woff2") format("woff2"),
-         url("../assets/fonts/#{$file}.woff") format("woff"),
-         url("../assets/fonts/#{$file}.ttf") format("truetype");
-    @content;
-  }
-}
-
-// Full browser support (fuckin' IE)
-@mixin font-face-full($name, $file) {
-  @font-face {
-    font-family: "#{$name}";
-    src: url("../assets/fonts/#{$file}.eot");
-    src: url("../assets/fonts/#{$file}.eot?#iefix") format("embedded-opentype"),
-         url("../assets/fonts/#{$file}.woff") format("woff"),
-         url("../assets/fonts/#{$file}.ttf") format("truetype");
-  }
-}
-
-/* Site fonts */
-/**
-  * Mixins for the basic font families used
-* */
-@mixin heading-font-family {
-  font-family: $font-stack-heading;
-  font-style: italic;
-  font-weight: 400;
-  line-height: 1;
-}
-
-@mixin body-font-family {
-  font-size: $body-size-md;
-  font-family: $font-stack-base;
-  line-height: $body-line-height;
-}
-
 //* -------------------------------------------------------------------------- */
 // Adaptive display/title/heading fonts
 @mixin title-text-xxl {
-  font-size: $title-size-xl;
+  font-size: $title-xl-size;
+  line-height: 1;
 
   @media #{$mq-md} {
-    font-size: $title-size-xxl;
+    font-size: $title-xxl-size;
   }
 }
 
 @mixin title-text-xl {
-  font-size: $title-size-lg;
+  font-size: $title-lg-size;
+  line-height: 1;
 
   @media #{$mq-md} {
-    font-size: $title-size-xl;
+    font-size: $title-xl-size;
   }
 }
 
 @mixin title-text-lg {
-  font-size: $title-size-md;
+  font-size: $title-md-size;
+  line-height: 1;
 
   @media #{$mq-md} {
-    font-size: $title-size-lg;
+    font-size: $title-lg-size;
   }
 }
 
 @mixin title-text-md {
-  font-size: $title-size-sm;
+  font-size: $title-sm-size;
   line-height: 1.05;
 
   @media #{$mq-md} {
-    font-size: $title-size-md;
+    font-size: $title-md-size;
     line-height: 1;
   }
 }
 @mixin title-text-sm {
-  font-size: $title-size-xs;
+  font-size: $title-xs-size;
 
   @media #{$mq-md} {
-    font-size: $title-size-sm;
+    font-size: $title-sm-size;
   }
 }
 
 @mixin title-text-xs {
-  font-size: $title-size-xxs;
+  font-size: $title-xxs;
   line-height: 1.05;
 
   @media #{$mq-md} {
-    font-size: $title-size-xs;
+    font-size: $title-xs;
+  }
+}
+
+
+@mixin body-font {
+  color: $body-text-color;
+  font: $body-md-size $font-stack-base;
+  line-height: $body-line-height;
+}
+
+@mixin logo-type {
+  font-family: Digestive-One;
+  font-size: 5rem;
+  font-style: normal;
+  line-height: 1;
+  text-transform: uppercase;
+
+  @media #{$mq-md} {
+    font-size: 7rem;
   }
 }

@@ -1,60 +1,59 @@
-//* -------------------------------------------------------------------------- */
-// Font stacks
-$font-stack-base: "Xanh Mono", monospace;
-$font-stack-heading: $font-stack-base;
-$font-stack-special: digestive-two;
-$font-stack-mono: $font-stack-base;
-
-//* -------------------------------------------------------------------------- */
-// Colors
+/**
+  * Tokens
+  */
+$body-xl-size: 21px;
+$body-lg-size: 18px;
+$body-md-size: 16px;
+$body-sm-size: 14px;
+$body-xs-size: 12px;
+$body-line-height: 1.5;
 $color-black: #000;
-$color-white: #fff;
+$color-chartreuse: #e1ff32; //#d8e80c
 $color-grey: #3d434a;
-$color-chartreuse: #d8e80c;
-$color-chartreuse-dark: #9da909;
-$color-chartreuse-light: #f2f994;
+$color-orange: #FF7500;
 $color-sea-green: #9bcba1;
 $color-teal-dark: #006450;
-$color-teal: #058779;
-
-// Applied palette
-$background-color: $color-sea-green;
-$border-color: $color-grey;
-$text-color: $color-black;
-$link-color: $color-black;
-$link-border-color: $color-black;
-$blockquote-border-color: $color-teal-dark;
-
-//* -------------------------------------------------------------------------- */
-// Breakpoints
+$color-teal: #00C08B;
+$color-white: #fff;
+$content-xs: 304px;
+$content-sm: 432px;
+$content-md: 688px;
+$content-lg: 928px;
+$content-xl: 1152px;
+$content-max: 1440px;
+$screen-xs: 320px;
+$screen-sm: 480px;
+$screen-md: 768px;
+$screen-lg: 1024px;
+$screen-xl: 1312px;
+$font-stack-base: "IBM Plex Mono", X-LocaleSpecific, monospace;
+$font-stack-title: "Xanh Mono", X-LocaleSpecific, sans-serif;
+$gradient-cool: linear-gradient(90deg, #3A8EE6, #9059FF, #C139E6);
+$gradient-highlight: linear-gradient(90deg, #FFFFFF, #FFF44F);
 $mq-xs: (min-width: 320px);
 $mq-sm: (min-width: 480px);
 $mq-md: (min-width: 768px);
 $mq-lg: (min-width: 1024px);
 $mq-xl: (min-width: 1312px);
-
-//* -------------------------------------------------------------------------- */
-// Spacing elements
+$mq-short: "(max-height: 599px)";
+$mq-tall: "(min-height: 600px)";
 $spacing-xxl: 3rem;
 $spacing-xl:  2rem;
 $spacing-lg:  1.5rem;
 $spacing-md:  1rem;
 $spacing-sm:  .5rem;
 $spacing-xs:  .25rem;
-
-//* -------------------------------------------------------------------------- */
-// Type scale
-$title-size-xxl: 4rem;    // 64px;
-$title-size-xl: 3.5rem;   // 56px;
-$title-size-lg: 3rem;     // 48px;
-$title-size-md: 2.5rem;   // 40px;
-$title-size-sm: 2rem;     // 32px;
-$title-size-xs: 1.5rem;   // 24px;
-$title-size-xxs: 1.25rem; // 20px;
-
-$body-size-xl: 20px;
-/* $body-size-lg: 18px; */
-$body-size-md: 16px;
-/* $body-size-sm: 14px; */
-$body-size-xs: 12px;
-$body-line-height: 1.5;
+$title-xxl-size: 4rem;    // 64px;
+$title-xxl-line-height: 1.125;
+$title-xl-size: 3.5rem;   // 56px;
+$title-xl-line-height: 1.143;
+$title-lg-size: 3rem;     // 48px;
+$title-lg-line-height: 1.166;
+$title-md-size: 2.5rem;   // 40px;
+$title-md-line-height: 1.1;
+$title-sm-size: 2rem;     // 32px;
+$title-sm-line-height: 1.125;
+$title-xs-size: 1.5rem;   // 24px;
+$title-xs-line-height: 1.166;
+$title-xxs-size: 1.25rem; // 20px;
+$title-xxs-line-height: 1.2;
