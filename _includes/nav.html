@@ -1,14 +1,6 @@
 <ul class="menu">
-  {% if page.permalink != '/' %}
-  <li class="menu-item">
-    <a href="/">Home</a>
-  </li>
-  {% endif %}
   <li class="menu-item">
     <a href="/about">About</a>
-  </li>
-  <li class="menu-item">
-    <a href="/working-notes">Working Notes</a>
   </li>
   <li class="menu-item">
     <a href="/library">Library</a>
@@ -17,3 +9,9 @@
     <a href="/antilibrary">Anti-library</a>
   </li>
 </ul>
+
+{% if page.permalink != '/' %}
+<div class="menu-item home">
+  <a href="/">{{ site.title }}</a>
+</div>
+{% endif %}

@@ -8,7 +8,10 @@
   */
 
 .wrapper {
+  margin: 1rem 0 3rem;
+}
+
+.grid-wrapper {
   border-top: 1px solid $border-color;
   border-bottom: 1px solid $border-color;
-  margin: 1rem 0 3rem;
 }
