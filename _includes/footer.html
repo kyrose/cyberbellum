@@ -1,13 +1,14 @@
 <footer class="site-footer">
-  <div class="footer-nav-wrapper">
-    <nav class="footer-nav">
-      <ul class="social-link-list">
-        {% for profile in site.data.social %}
-        <li class="social-link-item">
-          <a href="{{ profile.url }}">{{ profile.site }}</a>
-        </li>
-        {% endfor %}
-      </ul>
-    </nav>
+  <div class="copyright">
+    Kyanne Rose, 2021
   </div>
+  <nav class="footer-nav">
+    <ul class="menu">
+      {% for profile in site.data.social %}
+      <li class="menu-item">
+        <a href="{{ profile.url }}">{{ profile.site }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </nav>
 </footer>
