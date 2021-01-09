@@ -1,0 +1,60 @@
+.grid-wrapper>ul{
+  margin: 1rem 0 0;
+  list-style: none;
+}
+
+.grid {
+  @include border-bottom;
+  z-index: 3;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid-item {
+  position: relative;
+  display: block;
+  flex: 0 0 100%;
+  height: 400px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid $color-grey;
+  border-width: 1px 0 0 1px;
+
+  &:last-child {
+    border-right: 1px solid $color-grey;
+  }
+
+  @media #{$mq-md} {
+    flex-basis: 50%;
+    width: 50%;
+  }
+
+  @media #{$mq-lg} {
+    flex-basis: 25%;
+    width: 25%;
+  }
+
+  .title {
+    @include title-text-md;
+  }
+
+  .description {
+    margin-top: 2rem;
+  }
+}
+
+.item-container {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  padding: 4rem 1.5rem 1rem;
+  text-decoration: none;
+
+  &:hover {
+    background: $link-block-background-hover;
+    color: $link-block-text-hover;
+  }
+}
