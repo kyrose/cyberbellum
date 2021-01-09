@@ -1,0 +1,18 @@
+/* Change color of line next to note title in Andy Mode - Obsidianite */
+.workspace-leaf.mod-active .view-header {
+  border-right: 2px solid #058779 !important; /* change to border-bottom in non-AM */
+}
+
+.view-header-title-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.view-header-title-container::before {
+  background: none;
+}
+
+.workspace-leaf.mod-active .view-header-title {
+  color: var(--base2);
+}

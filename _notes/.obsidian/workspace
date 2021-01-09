@@ -1,0 +1,103 @@
+{
+  "main": {
+    "id": "43c01f31f436d921",
+    "type": "split",
+    "children": [
+      {
+        "id": "2a664b9df6e3791e",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "modernism/modernism.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d3f052d238abb2dd",
+    "type": "split",
+    "children": [
+      {
+        "id": "2e36bc40a64e1601",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aa0342da2bea50ba",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "e80c61a488ea0364",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": true,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 228
+  },
+  "right": {
+    "id": "ba894b632adac279",
+    "type": "split",
+    "children": [
+      {
+        "id": "98785134350d1166",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6f592b13465ce839",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "0c5dea13b70af0fd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "modernism/modernism.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 379,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "modernism/Untitled.md",
+    "personal-rituals.md",
+    "past-is-alien.md",
+    "my-garden-is.md",
+    "taxonomies.md",
+    "_templates/update.md",
+    "Untitled.md",
+    "--ORPHANS.md",
+    "orphans.md",
+    "mark-fisher.md"
+  ]
+}

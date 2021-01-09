@@ -26,7 +26,6 @@ sftp-config.json
 GitHub.sublime-settings  # package stores token in file
 
 # Obsidian config
-.obsidian/
 .trash/
 
 # Personal
