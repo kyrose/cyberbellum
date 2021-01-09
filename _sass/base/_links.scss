@@ -7,48 +7,22 @@
   * * Other: background, color, fonts...
   */
 
-a {
+.external-link, .internal-link {
   color: $link-color;
   text-decoration: underline;
 
-  &:hover, &:active {
+  &:hover {
     text-decoration: none;
   }
 }
 
-.external-link {
-  border-bottom: 1px dotted $link-color;
-  color: $link-color;
-  text-decoration: none;
-
-  &::after {
+.external-link::after {
     position: relative;
     right: -2px;
     bottom: 0;
     content: '↗';
     color: $link-color;
-  }
-
-  &:active, &:hover {
-    border-bottom: 1px solid $link-color;
-
-    &::after {
-      text-shadow: 0 0 10px $link-color;
-    }
-  }
 }
 
 .internal-link {
-  border-bottom-color: $link-color;
-  color: $link-color;
-  text-decoration: none;
-
-  &::after {
-    content: '';
-  }
-
-  &:hover {
-    border: none;
-    text-shadow: 0 0 3px $link-color;
-  }
 }

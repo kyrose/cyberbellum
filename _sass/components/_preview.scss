@@ -1,0 +1,34 @@
+/**
+  * Link previews
+  *
+  * Declaration order guidelines:
+  * * Positioning: position, z-index, top, right, bottom, left
+  * * Display & box model: display, overflow, box-sizing, width, height, padding, border, margin
+  * * Other: background, color, fonts...
+  */
+
+#tooltip-wrapper {
+  position: absolute;
+  overflow: hidden;
+  width: 400px;
+  height: 250px;
+  padding: 1rem;
+  border: $border;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  background: $background-color;
+  font-size: .8rem;
+  opacity: 0;
+  transition: opacity 100ms;
+
+  &::after {
+    content: '';
+    position: absolute;
+    z-index: 1000;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    pointer-events: none;
+    background-image: linear-gradient(to bottom, rgba(255,255,255, 0), rgba($background-color, 1) 90%);
+  }
+}
