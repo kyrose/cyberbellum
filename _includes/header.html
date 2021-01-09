@@ -2,19 +2,43 @@
   <nav class="header-nav row">
     {% include nav.html %}
   </nav>
-  {% if page.permalink=="/" %}
   <div class="header-logo row">
-    <span class="logo">c</span>
-    <span class="logo">y</span>
-    <span class="logo">b</span>
-    <span class="logo">e</span>
-    <span class="logo">r</span>
-    <span class="logo">b</span>
-    <span class="logo">e</span>
-    <span class="logo">l</span>
-    <span class="logo">l</span>
-    <span class="logo">u</span>
-    <span class="logo">m</span>
+    {% case page.permalink %}
+      {% when "/library" %}
+      <span class="logo">l</span>
+      <span class="logo">i</span>
+      <span class="logo">b</span>
+      <span class="logo">r</span>
+      <span class="logo">a</span>
+      <span class="logo">r</span>
+      <span class="logo">y</span>
+
+      {% when "/antilibrary" %}
+      <span class="logo">a</span>
+      <span class="logo">n</span>
+      <span class="logo">t</span>
+      <span class="logo">i</span>
+      <span class="logo">-</span>
+      <span class="logo">l</span>
+      <span class="logo">i</span>
+      <span class="logo">b</span>
+      <span class="logo">r</span>
+      <span class="logo">a</span>
+      <span class="logo">r</span>
+      <span class="logo">y</span>
+
+      {% else %}
+      <span class="logo">c</span>
+      <span class="logo">y</span>
+      <span class="logo">b</span>
+      <span class="logo">e</span>
+      <span class="logo">r</span>
+      <span class="logo">b</span>
+      <span class="logo">e</span>
+      <span class="logo">l</span>
+      <span class="logo">l</span>
+      <span class="logo">u</span>
+      <span class="logo">m</span>
+    {% endcase %}
   </div>
-  {% endif %}
 </header>

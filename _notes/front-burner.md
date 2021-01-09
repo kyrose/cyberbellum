@@ -2,6 +2,7 @@
 lastmod: 2021-01-08T21:40:30
 title: "Front Burner"
 summary:
+post: true
 ---
 
 # Front burner

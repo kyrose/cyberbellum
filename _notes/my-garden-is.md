@@ -2,6 +2,7 @@
 lastmod: 2021-01-06T21:38:21
 title: "My garden"
 summary:
+post: true
 ---
 
 - a personal wiki, i.e. repository of knowledge gained (as opposed to information gathered)
