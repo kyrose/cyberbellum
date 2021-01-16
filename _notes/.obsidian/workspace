@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "2a664b9df6e3791e",
+        "id": "5f158b2b2c6ea33f",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "modernism/modernism.md",
+            "file": "zero-waste.md",
             "mode": "source"
           }
         }
@@ -53,7 +53,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 228
+    "width": 228,
+    "collapsed": true
   },
   "right": {
     "id": "ba894b632adac279",
@@ -77,7 +78,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "modernism/modernism.md"
+                "file": "zero-waste.md"
               }
             }
           }
@@ -89,15 +90,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "going-green.md",
+    "_templates/update.md",
+    "ethos-of-modernism.md",
+    "Untitled.md",
     "modernism/Untitled.md",
     "personal-rituals.md",
     "past-is-alien.md",
     "my-garden-is.md",
     "taxonomies.md",
-    "_templates/update.md",
-    "Untitled.md",
-    "--ORPHANS.md",
-    "orphans.md",
-    "mark-fisher.md"
+    "--ORPHANS.md"
   ]
 }
