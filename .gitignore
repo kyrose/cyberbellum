@@ -27,6 +27,7 @@ GitHub.sublime-settings  # package stores token in file
 
 # Obsidian config
 .trash/
+.obsidian/workspace
 
 # Personal
 _notes/\_**/
