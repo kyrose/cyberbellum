@@ -1,9 +1,6 @@
 ---
 layout: page
-title: About
+title: Kyanne Rose
+summary: artist, privacy advocate, coding neophyte
 permalink: /about
 ---
-
-*This is an about page.*
-
-Feel free to tell the world about what you love! 😍
