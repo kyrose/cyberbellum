@@ -23,7 +23,7 @@
 }
 
 .note, .backlinks {
-  padding: 2rem;
+  padding: 1.5rem;
 
   @media #{$mq-md} {
     padding: 2rem 4rem;
@@ -35,6 +35,11 @@
   flex-flow: column;
   justify-content: center;
   align-items:center;
+  margin-bottom: 2rem;
+
+  time {
+    padding: 20px;
+  }
 
   @media #{$mq-md} {
     flex-flow: row;
@@ -43,5 +48,20 @@
 }
 
 .note-content {
-  text-align: justify;
+  &>p {
+    margin-bottom: 2rem;
+  }
+
+  h2 {
+    @include title-text-md;
+    padding-top: 1.5rem;
+  }
+
+  h3, h4 {
+    @include title-text-sm;
+  }
+
+  h4 {
+    font-family: $font-stack-base;
+  }
 }
