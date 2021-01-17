@@ -8,8 +8,11 @@
         "type": "leaf",
         "active": true,
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "art-research-circle.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -73,7 +76,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "art-research-circle.md"
+              }
             }
           }
         ]
@@ -84,13 +89,13 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "art-research_circle.md",
     "--ORPHANS.md",
     "bible.md",
     "expectations.md",
     "todo-list.md",
     "my-garden-is.md",
     "personal-rituals.md",
-    "art-research_circle.md",
     "zero-waste.md",
     "Untitled.md",
     "going-green.md"

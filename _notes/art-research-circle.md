@@ -14,13 +14,10 @@ Dark halo. "Zone of light."
 _What would it mean to invert the halo?_
 
 ## In the form of a rainbow
-
-### Another title
 _"I set my bow in the cloud, and it shall be a sign of the covenant between me and the earth,"_ Genesis 9:13
 
 _"The I saw another mighty angel coming down from heaven, wrapped in a cloud, with a rainbow over his head,..."_ Revelation 10:1
 
-#### ok, wow
 Iris is the Greek goddess of the rainbow, and a messenger of the gods (a feminine Hermes). Again, we see the rainbow represent communication between the heavens and the earth.
 
 >The union of earthly and divine
