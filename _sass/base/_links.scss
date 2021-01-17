@@ -10,6 +10,7 @@
 .external-link, .internal-link {
   color: $link-color;
   text-decoration: underline;
+  transition: all .5s ease;
 
   &:hover {
     text-decoration: none;
@@ -24,5 +25,6 @@
     color: $link-color;
 }
 
-.internal-link {
+.internal-link:hover {
+  background: rgba($color-chartreuse, .7);
 }
