@@ -1,0 +1,36 @@
+.footnote {
+  position: relative;
+  top: -0.4em;
+  vertical-align: baseline;
+  color: $footnote-color;
+  font-size: 0.778rem;
+  cursor: pointer;
+}
+
+.footnotes {
+  display: block;
+  margin-top: 4rem;
+
+  &::before{
+    @include title-text-lg;
+    content: 'Footnotes';
+    color: $color-chartreuse;
+    font-family: $font-stack-title;
+    font-style: italic;
+
+  }
+
+  ol {
+    list-style: decimal;
+    margin: 1.25rem;
+    font-size: .8rem;
+
+    li {
+      padding-left: 1.2rem;
+    }
+  }
+}
+
+.reversefootnote {
+  color: $footnote-color;
+}
