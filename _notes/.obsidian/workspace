@@ -4,15 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "5f158b2b2c6ea33f",
+        "id": "9277a7ac2d4d8002",
         "type": "leaf",
         "active": true,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "zero-waste.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -53,8 +50,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 228,
-    "collapsed": true
+    "width": 228
   },
   "right": {
     "id": "ba894b632adac279",
@@ -77,9 +73,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "zero-waste.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -90,15 +84,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "going-green.md",
-    "_templates/update.md",
-    "ethos-of-modernism.md",
-    "Untitled.md",
-    "modernism/Untitled.md",
-    "personal-rituals.md",
-    "past-is-alien.md",
+    "--ORPHANS.md",
+    "bible.md",
+    "expectations.md",
+    "todo-list.md",
     "my-garden-is.md",
-    "taxonomies.md",
-    "--ORPHANS.md"
+    "personal-rituals.md",
+    "art-research_circle.md",
+    "zero-waste.md",
+    "Untitled.md",
+    "going-green.md"
   ]
 }
