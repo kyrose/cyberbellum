@@ -10,7 +10,7 @@
 h1, h2, h3, h4, h5, h6 {
   margin: 0 0 .5em;
   font-family: $title-font-family;
-  font-style: italic;
+  font-style: normal;
   font-weight: 400;
 }
 
@@ -21,19 +21,23 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   @include title-text-xxl;
   margin-bottom: .25em;
+  font-style: italic;
 }
 
 h2 {
   @include title-text-xl;
   margin-bottom: .45em;
+  text-transform: uppercase;
 }
 
 h3 {
   @include title-text-lg;
+  font-style: italic;
 }
 
 h4 {
   @include title-text-md;
+  font-family: font-stack-base;
 
   &::before {
     content: '⸺';
@@ -42,7 +46,6 @@ h4 {
 
 h5, h6 {
   @include title-text-sm;
-  font-style: normal;
   text-transform: uppercase;
 }
 

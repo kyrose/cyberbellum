@@ -45,11 +45,11 @@
 }
 
 @mixin title-text-xs {
-  font-size: $title-xxs;
+  font-size: $title-xs-size;
   line-height: 1.05;
 
   @media #{$mq-md} {
-    font-size: $title-xs;
+    font-size: $title-sm-size;
   }
 }
 

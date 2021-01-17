@@ -10,7 +10,9 @@ $nav-color-hover: $color-chartreuse;
 $link-block-background: transparent;
 $link-block-background-hover: $color-teal-dark;
 $link-block-text-hover: $color-white;
-$blockquote-border-color: $color-teal-dark;
+$blockquote-text-style: italic 3rem $font-stack-title;
+$blockquote-accent: $color-chartreuse;
+$footnote-color: $color-orange;
 
 $map-text: $color-black;
 $map-node: $color-chartreuse;
