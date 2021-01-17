@@ -47,6 +47,11 @@
   }
 }
 
+.note-title {
+  color: rgba($color-black, .7);
+  text-transform: capitalize;
+}
+
 .note-content {
   &>p {
     margin-bottom: 2rem;
