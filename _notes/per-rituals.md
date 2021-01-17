@@ -2,7 +2,7 @@
 lastmod: 2021-01-06T16:07:06
 title: Rituals
 summary: "Actions done with intention to create meaning and purpose in my life."
-post: true
+permalink: /rituals
 ---
 
 ## Read without the internet
