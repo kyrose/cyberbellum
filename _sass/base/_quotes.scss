@@ -3,22 +3,43 @@
   *
   * Declaration order guidelines:
   * * Positioning: position, z-index, top, right, bottom, left
-  * * Display & box model: display, overflow, box-sizing, width, height, padding, border, margin
+  * * Display & box model: display, overflow, width, height, margin, border, padding
   * * Other: background, color, fonts...
   */
 
 blockquote {
-  border-left: 2px solid $blockquote-border-color;
-  font-size: $body-xl-size;
-  font-style: italic;
-  margin: $spacing-lg auto;
-  padding: $spacing-sm $spacing-lg;
+  max-width: 650px;
+  margin: $spacing-xxl auto;
+  color: $color-chartreuse;
+  font: $blockquote-text-style;
+  letter-spacing: -.03em;
+  line-height: 1;
+  text-align: center;
+  word-break: break-word;
+
+  p {
+    margin: 1.25em 0;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  /* &::before, &::after {
+    content: '';
+    display: block;
+    width: 75%;
+    margin: 2rem auto;
+    border-top: 1px solid $blockquote-accent;
+  } */
 
   cite {
-    font-size: $body-xs-size;
+    padding-bottom: .7rem;
+    font: $body-sm-size $font-stack-base;
+    letter-spacing: normal;
+  }
 
-    &::before {
-      content: '— ';
-    }
+  ul {
+    @extend cite;
   }
 }
