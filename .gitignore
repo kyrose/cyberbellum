@@ -25,10 +25,10 @@ Session.vim
 sftp-config.json
 GitHub.sublime-settings  # package stores token in file
 
-# Obsidian config
+# Obsidian
 .trash/
 .obsidian/workspace
 
 # Personal
 _notes/\_**/
-
+'_notes/--ORPHANS.md'
