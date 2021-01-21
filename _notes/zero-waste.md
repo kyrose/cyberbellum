@@ -1,8 +1,8 @@
 ---
 lastmod: 2021-01-16T08:27:48
-title: "Waste Not, Want Not"
-summary: An earnest attempt at reducing waste
-post: true
+title: Zero Waste
+summary: Waste not, want not
+tags: degrowth, zero_waste
 ---
 
 The [Zero Waste](https://en.wikipedia.org/wiki/Zero_waste){: .external-link} movement is guided by the desire to reduce the amount of materials sent to landfills, incinerators, and--most importantly--the ocean. It's a preventative plan-of-action, one that encourages responsibility on the part of both producers and consumers (contrast this with the recycling movement that puts all the onus on the consumer). 

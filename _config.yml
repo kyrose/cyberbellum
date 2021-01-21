@@ -38,6 +38,16 @@ sass:
   sass_dir: _sass
   style: :compressed
 
+tags:
+  - anarchism
+  - art
+  - cyberfeminism
+  - futures
+  - modernism
+  - personal
+  - symbols
+  - zero_waste
+
 collections:
   notes:
     output: true

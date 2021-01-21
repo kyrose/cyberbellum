@@ -1,7 +1,8 @@
 ---
 lastmod: 2020-12-09T00:12:19-08:00
 title: Adrift
-summary:
+summary: "I have always felt adrift, living a life untethered even to myself"
+tags: personal
 ---
 
 Adrift is the word that always comes to mind when describing myself.

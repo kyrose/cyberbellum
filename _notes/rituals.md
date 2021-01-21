@@ -1,8 +1,9 @@
 ---
 lastmod: 2021-01-06T16:07:06
 title: Rituals
-summary: "Actions done with intention to create meaning and purpose in my life."
 permalink: /rituals
+summary: "Actions done with intention to create meaning and purpose in my life."
+tags: personal
 ---
 
 ## Read without the internet

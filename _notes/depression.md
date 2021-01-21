@@ -2,6 +2,7 @@
 lastmod: 2021-01-17T00:26:25
 title: The Poetry of Depression
 summary:
+tags: personal, mental_health
 ---
 
 After a break, I've returned to [[Mark Fisher]]'s _Ghosts Of My Life_; a book I'm not even 100 pages in, but a book I can already feel the influence of.

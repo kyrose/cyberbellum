@@ -2,6 +2,7 @@
 lastmod: 2021-01-16T19:16:14
 title: "Symbolism of the circle"
 summary: "Without beginning, without end, without direction: perfection."
+tags: art, symbols
 ---
 
 Without beginning, without end, without direction (isotropic). A completeness which subsumes all space and time. 

@@ -2,6 +2,7 @@
 lastmod: 2021-01-05T21:45:06
 title: Prompts
 summary: Tools for reflection.
+tags: prompts
 ---
 
 1. What have been the five best days of your life thus far?

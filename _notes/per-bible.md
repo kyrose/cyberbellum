@@ -1,8 +1,9 @@
 ---
 lastmod: 2021-01-17T00:27:30
 title: "A Bible of My Own"
+permalink: /bible
 summary: "All the words and sentences that have been like the blast of a trumpet"
-permalink: /a-bible
+tags: personal, quotes
 ---
 
 >Make your own bible. Select and collect all the words and sentences that in all your readings have been to you like the blast of a trumpet.
