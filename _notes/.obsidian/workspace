@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "9277a7ac2d4d8002",
+        "id": "fc6ed849e8f9b741",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "art-research-circle.md",
+            "file": "solidarity-is-a-physical-word.md",
             "mode": "source"
           }
         }
@@ -48,12 +48,21 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "371575b98ad044f1",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 228
+    "width": 228,
+    "collapsed": true
   },
   "right": {
     "id": "ba894b632adac279",
@@ -64,24 +73,40 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6f592b13465ce839",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "0c5dea13b70af0fd",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "art-research-circle.md"
+                "file": "solidarity-is-a-physical-word.md"
               }
             }
+          },
+          {
+            "id": "e1bebdbb8d1516ae",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "solidarity-is-a-physical-word.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a7e12eb6c61fc2c5",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -89,15 +114,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "art-research_circle.md",
-    "--ORPHANS.md",
-    "bible.md",
-    "expectations.md",
-    "todo-list.md",
-    "my-garden-is.md",
-    "personal-rituals.md",
-    "zero-waste.md",
     "Untitled.md",
-    "going-green.md"
+    "_prompts/prompts-two-qs.md",
+    "_prompts/prompts-01.md",
+    "_prompts/prompts-02.md",
+    "_prompts/prompts-03.md",
+    "_prompts/Untitled.md",
+    "_prompts/_templates/moonlist.md",
+    "_personal/color-palette.md",
+    "--templates/swatch.md",
+    "--templates/Untitled.md"
   ]
 }

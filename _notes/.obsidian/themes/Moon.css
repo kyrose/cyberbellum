@@ -53,7 +53,8 @@ body.theme-dark {
   --sat: 8%;
   --interactive-accent-rgb: 46, 170, 220;
   --code: #EB5757;
-
+  --border-color: #3d434a;
+  --text-highlight-bg: #e1ff32;
   --opacity-translucency: 0.7;
 }
 
@@ -66,7 +67,7 @@ body.theme-dark {
 
   --text-rgb: 255, 255, 255;
 
-  --text-highlight-bg: rgb(89, 86, 59);
+  /* --text-highlight-bg: rgb(89, 86, 59); */
   --text-selection: hsla(211, 100%, 50%, 0.2);
   --interactive-normal: #2a2a2a;
   --interactive-hover: #303030;
@@ -103,7 +104,7 @@ body.theme-dark {
 
   --text-rgb: 55, 53, 47;
 
-  --text-highlight-bg: rgb(251, 243, 219);
+  /* --text-highlight-bg: rgb(251, 243, 219); */
   --text-selection: rgba(0, 122, 255, 0.15);
   --interactive-normal: #f2f3f5;
   --interactive-hover: #e9e9e9;
@@ -158,6 +159,14 @@ body.theme-light {
 .view-header-title {
   font-family: var(--font-monospace);
   font-weight: 400;
+}
+
+/* 3.??. Width of note source body */
+.markdown-source-view.is-readable-line-width .CodeMirror {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80vw;
 }
 
 /* 3.1. Title bar */
@@ -385,36 +394,37 @@ strong,
   /* hide the svg link icon, gets replaced with a nifty arrow */
 }
 
-/* 4.4. Tables */
+/**
+  * 4.4. Tables
+  */
+
+.markdown-preview-view table {
+  width: 90%;
+  font-family: var(--font-monospace);
+}
+
 /* fix for long markdown editor text (tables) getting cut off */
 .CodeMirror-scroll {
   margin-right: -10px;
 }
 
-/* table headers and first column styling */
-.markdown-preview-view th:first-child,
-.markdown-preview-view td:first-child {
-  border-left: none;
-}
-
-.markdown-preview-view th:last-child,
-.markdown-preview-view td:last-child {
-  border-right: none;
-}
-
+/* table headers styling */
 .markdown-preview-view th {
-  text-align: left;
+  font-family: var(--font-header);
+  font-size: 1.3rem;
+  font-style: italic;
   font-weight: normal;
-  color: var(--text-muted);
+  text-align: left;
+  text-transform: capitalize;
 }
 
-.markdown-preview-view td:first-child {
-  font-weight: 600;
+.markdown-preview-view tr td:first-child {
+  text-align: center;
 }
 
 .markdown-preview-view hr {
   height: 1px;
-  opacity: 0.5;
+  color: var(--border-color);
 }
 
 /* 4.5. Popovers */
@@ -911,4 +921,10 @@ a.tag,
 .cm-s-obsidian span.cm-hashtag.cm-tag-important,
 .tag[href="#important"] {
   background-color: var(--background-red);
+}
+
+.swatch {
+  width: 40px;
+  height: 40px;
+  border-radius: 3px;
 }
