@@ -1,5 +1,5 @@
 ---
-lastmod: 2021-01-16T14:17:09
+lastmod: 2021-01-17T00:27:30
 title: "A Bible of My Own"
 summary: "All the words and sentences that have been like the blast of a trumpet"
 permalink: /a-bible
@@ -13,6 +13,8 @@ permalink: /a-bible
 "The opposite of a true statement is a false statement, but the opposite of a profound truth can be another profound truth."[^2]
 
 "I am so weary of sighing my Lord, grant that the night cometh."
+
+"Looking into the cool tepid vista of the rest of my life"
 
 [^1]: Mark Fisher, _Capitalist Realism_
 [^2]:Niels Bohr

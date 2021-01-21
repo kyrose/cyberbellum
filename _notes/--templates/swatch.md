@@ -1,0 +1,1 @@
+<center><div class="swatch" style="background:#"></div></center> 
