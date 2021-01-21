@@ -12,10 +12,9 @@ $color-black: #000;
 $color-chartreuse: #e1ff32; //#d8e80c
 $color-grey: #3d434a;
 $color-orange: #FF7500;
-$color-sea-green: #9bcba1;
-/* $color-teal-dark: #006450; */
-$color-teal: #00C08B;
-$color-teal-dark: darken($color-teal, 10%);
+$color-sea-green: #9bcba1; // rename: eton-green
+$color-teal: #00C08B; // rename: sea-green-lite
+$color-teal-dark: darken($color-teal, 10%); // rename: sea-green-dark
 $color-white: #fff;
 $content-xs: 304px;
 $content-sm: 432px;

@@ -8,17 +8,18 @@
   */
 
 blockquote {
-  max-width: 650px;
+  max-width: 900px;
   margin: $spacing-xxl auto;
-  color: $color-chartreuse;
+  color: $blockquote-text-color;
   font: $blockquote-text-style;
   letter-spacing: -.03em;
-  line-height: 1;
   text-align: center;
   word-break: break-word;
 
   p {
-    margin: 1.25em 0;
+    margin: 1.25em 0 .75em;
+    line-height: 1.2;
+    text-shadow: 4px 2px 2rem $color-teal;
 
     &:first-child {
       margin-top: 0;
@@ -35,6 +36,7 @@ blockquote {
 
   cite {
     padding-bottom: .7rem;
+    color: $text-color;
     font: $body-sm-size $font-stack-base;
     letter-spacing: normal;
   }
