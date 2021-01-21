@@ -59,15 +59,3 @@
   font: $body-md-size $font-stack-base;
   line-height: $body-line-height;
 }
-
-@mixin logo-type {
-  font-family: Digestive-One;
-  font-size: 5rem;
-  font-style: normal;
-  line-height: 1;
-  text-transform: uppercase;
-
-  @media #{$mq-md} {
-    font-size: 7rem;
-  }
-}

@@ -2,13 +2,13 @@
 layout: default
 ---
 
-{{ content }}
+<main class="inner-wrapper">
 
-<main class="grid-wrapper">
-  <ul class="grid">
-    {% for note in site.notes %}
-    <li class="grid-item">
-      <a class="item-container" href="{{ note.url }}">
+    {{ content }}
+
+    <div class="grid">
+      {% for note in site.notes %}
+      <a class="grid-item" href="{{ note.url }}">
         <!-- title -->
         <h3 class="title">{{ note.title }}</h3>
 
@@ -17,7 +17,6 @@ layout: default
           {{ note.summary }}
         </div>
       </a>
-    </li>
-    {% endfor %}
-  </ul>
+      {% endfor %}
+    </div>
 </main>

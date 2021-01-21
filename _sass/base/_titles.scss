@@ -15,7 +15,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .logo {
-  @include logo-type;
+  font-family: Digestive-Two;
+  font-size: 5rem;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+
+  @media #{$mq-md} {
+    font-family: Digestive-Zero;
+    font-size: 16rem;
+  }
 }
 
 h1 {
@@ -25,13 +35,13 @@ h1 {
 }
 
 h2 {
-  @include title-text-xl;
+  @include title-text-lg;
   margin-bottom: .45em;
   text-transform: uppercase;
 }
 
 h3 {
-  @include title-text-lg;
+  @include title-text-md;
   font-style: italic;
 }
 

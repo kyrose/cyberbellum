@@ -1,20 +1,21 @@
-<header class="site-header">
-  <nav class="header-nav row">
-    {% include nav.html %}
-  </nav>
+<header class="header">
   <div class="header-logo row">
     <a href="/">
-      <span class="logo">c</span>
-      <span class="logo">y</span>
-      <span class="logo">b</span>
-      <span class="logo">e</span>
-      <span class="logo">r</span>
-      <span class="logo">b</span>
-      <span class="logo">e</span>
-      <span class="logo">l</span>
-      <span class="logo">l</span>
-      <span class="logo">u</span>
-      <span class="logo">m</span>
+      <h1 class="logo">{{ site.title }}</h1>
     </a>
   </div>
+  <nav class="header-nav row">
+
+    <ul class="menu">
+      <li class="description">
+        {{ site.description }}
+      </li>
+      {% for page in site.data.nav %}
+      <li>
+        <a class="nav-link" href="{{page.url}}">{{page.title}}</a>
+      </li>
+      {% endfor %}
+    </ul>
+
+  </nav>
 </header>

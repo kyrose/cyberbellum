@@ -6,11 +6,13 @@ $body-text-color: $color-black;
 $text-color: $body-text-color;
 $logo-text-color: $color-chartreuse;
 $link-color: $color-black;
-$nav-color: $color-black;
-$nav-color-hover: $color-chartreuse;
+$nav-color-hover: $color-teal-dark;
+$nav-bkgcolor-hover: $color-chartreuse;
+
 $link-block-background: transparent;
 $link-block-background-hover: $color-teal-dark;
 $link-block-text-hover: $color-white;
+
 $blockquote-text-style: italic 3rem $font-stack-title;
 $blockquote-text-color: $color-teal-dark;
 $blockquote-accent: $color-chartreuse;

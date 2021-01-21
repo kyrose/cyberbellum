@@ -1,45 +1,15 @@
-.site-header {
-  z-index: 100;
-  position: sticky;
-  top: 0;
+.header {
   display: flex;
-  flex-flow: column-reverse;
-  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
   margin: 5px 0 0;
-  border-top: $border;
   background: rgba($background-color, .8);
-
-  @media #{$mq-md} {
-    flex-flow: column;
-    margin-top: 0;
-  }
-
-  .row {
-    padding-right: 1rem;
-    padding-left: 1rem;
-
-    @media #{#mq-md} {
-      padding-left: 2rem;
-    }
-  }
-}
-
-.header-nav {
-  display: flex;
-  justify-content: space-between;
-  border-bottom: $border;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
-  font-size: .875rem;
 }
 
 .header-logo {
-  @include border-bottom;
-  width: 100%;
+  margin-right: 3rem;
 
   a {
-    display: flex;
-    justify-content: space-between;
     color: $logo-text-color;
     transition: color 1s ease;
 
@@ -51,4 +21,41 @@
   .logo {
     margin-bottom: -0.0875em;
   }
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  font-size: .875rem;
+}
+
+
+.menu {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+
+  li {
+    padding: .75rem;
+  }
+}
+
+.nav-link {
+  border: $border;
+  border-radius: 1rem;
+  padding: .5em 1em;
+  text-decoration: none;
+  transition: color .2s ease, background .2s ease;
+
+  &:hover, &:focus, &:active {
+    background: $nav-bkgcolor-hover;
+    color: $nav-color-hover;
+  }
+}
+
+
+.description {
+  grid-area: 1 / 1 / 1 / 5;
 }

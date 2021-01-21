@@ -54,6 +54,10 @@ ol, ul {
   list-style:none;
 }
 
+nav {
+  text-transform: uppercase;
+}
+
 // Form elements
 button, input, select, textarea {
   margin: 0;
