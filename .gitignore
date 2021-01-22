@@ -31,5 +31,4 @@ workspace
 workspaces.json
 
 # Personal
-_notes/\_**/
-'_notes/--ORPHANS.md'
+_notes/private/
