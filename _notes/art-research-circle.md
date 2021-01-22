@@ -1,7 +1,7 @@
 ---
 lastmod: 2021-01-16T19:16:14
-title: "Symbolism of the circle"
-summary: "Without beginning, without end, without direction: perfection."
+title: Symbolism of the circle
+summary: "Without beginning, without end, without direction: perfection"
 tags: art, symbols
 ---
 

@@ -1,8 +1,8 @@
 ---
 lastmod: 2020-12-13T10:23:01-08:00
-title: Expectations
+title: expectations
 permalink: /expectations
-summary:
+summary: ""
 tags: art, quotes
 ---
 

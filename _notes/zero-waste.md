@@ -1,7 +1,7 @@
 ---
 lastmod: 2021-01-16T08:27:48
 title: Zero Waste
-summary: Waste not, want not
+summary: "Waste not, want not"
 tags: degrowth, zero_waste
 ---
 

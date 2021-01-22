@@ -1,7 +1,6 @@
 ---
 lastmod: 2021-01-17T00:27:30
-title: "A Bible of My Own"
-permalink: /bible
+title: A Bible
 summary: "All the words and sentences that have been like the blast of a trumpet"
 tags: personal, quotes
 ---
@@ -15,7 +14,9 @@ tags: personal, quotes
 
 "I am so weary of sighing my Lord, grant that the night cometh."
 
-"Looking into the cool tepid vista of the rest of my life"
+"Looking into the cool tepid vista of the rest of my life."
+
+"...we are the subjects of an experiment which no one is consciously really conducting. What is the nature of this experiment? Well I think it is to see what a kind of 'electro-libidinal parasite' can do to you."
 
 [^1]: Mark Fisher, _Capitalist Realism_
 [^2]:Niels Bohr

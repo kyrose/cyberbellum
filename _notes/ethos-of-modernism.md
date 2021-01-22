@@ -1,7 +1,7 @@
 ---
 lastmod: 2021-01-09T15:52:08
-title: Ethos of modernism
-summary: 
+title: ethos of modernism
+summary: ""
 tags: modernism
 ---
 

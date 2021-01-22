@@ -1,7 +1,7 @@
 ---
 lastmod: 2021-01-06T20:15:21
-title: "Taxonomies"
-summary: Work in progress
+title: taxonomies
+summary: ""
 tags: personal
 ---
 

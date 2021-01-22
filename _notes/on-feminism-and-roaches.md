@@ -1,7 +1,7 @@
 ---
 lastmod: 2021-01-16T09:40:19
-title: "On Feminism and Roaches"
-summary:
+title: On Feminism and Roaches
+summary: ""
 tags: cyberfeminism
 ---
 

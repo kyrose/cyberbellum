@@ -1,7 +1,7 @@
 ---
 lastmod: 2021-01-17T00:26:25
-title: The Poetry of Depression
-summary:
+title: Black Sun
+summary: "The poetry of depression"
 tags: personal, mental_health
 ---
 
