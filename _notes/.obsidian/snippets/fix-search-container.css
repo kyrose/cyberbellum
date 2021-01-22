@@ -1,0 +1,7 @@
+.document-search-container {
+  height: 75px;
+}
+
+.document-search-container.mod-replace-mode {
+  height: 115px;
+}

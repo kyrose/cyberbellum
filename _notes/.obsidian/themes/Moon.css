@@ -161,14 +161,6 @@ body.theme-light {
   font-weight: 400;
 }
 
-/* 3.??. Width of note source body */
-.markdown-source-view.is-readable-line-width .CodeMirror {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 80vw;
-}
-
 /* 3.1. Title bar */
 .titlebar {
   background-color: var(--background-secondary-alt);
