@@ -1,13 +1,18 @@
 ---
-lastmod: 2021-01-16T19:16:14
+type: art_note
+alias: symbol-circle
+created: 2021-01-16
+lastmod: 2021-01-16
 title: Symbolism of the circle
-summary: "Without beginning, without end, without direction: perfection"
+summary: 'Without beginning, without end, without direction: perfection'
 tags: art, symbols
 ---
 
+# Symbolism of the circle
+
 Without beginning, without end, without direction (isotropic). A completeness which subsumes all space and time. 
 
-Democracy, [[anarchy]], an assembly of equals. The council circle, the round table.[^0]
+Democracy, [[anarchism]], an assembly of equals. The council circle, the round table.[^0]
 
 ## In the form of a halo
 Dark halo. "Zone of light."

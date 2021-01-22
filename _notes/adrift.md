@@ -1,9 +1,14 @@
 ---
-lastmod: 2020-12-09T00:12:19-08:00
+type: note
+alias: adrift
 title: Adrift
-summary: "I have always felt adrift, living a life untethered even to myself"
+summary: 'Moving through life untethered'
 tags: personal
+created: 2021-12-09
+lastmod: 2021-12-09
 ---
+
+# Adrift
 
 Adrift is the word that always comes to mind when describing myself.
 

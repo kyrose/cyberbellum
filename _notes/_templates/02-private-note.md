@@ -3,8 +3,12 @@ type: private
 destFolder: private
 nameFormat: <<created>>-<<alias>>
 
-alias: ['']
+alias: 
+title:
+tags:
+
 created: <<date>>
+lastmod: <<date>>
 ---
 
-# 
+# <<title>>

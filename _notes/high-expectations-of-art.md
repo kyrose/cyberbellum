@@ -1,9 +1,12 @@
+
 ---
-lastmod: 2020-12-13T10:23:01-08:00
-title: expectations
-permalink: /expectations
-summary: ""
-tags: art, quotes
+type: note
+alias: high-expectations-of-art
+created: '2021-12-13'
+lastmod: '2021-12-13'
+title: High expectations
+summary: ''
+tags: art, quotes, mark-fisher
 ---
 
 "...high expectations of popular art's power to challenge, enlighten, and heal; and [the] adamant refusal to settle for less."

@@ -1,9 +1,14 @@
 ---
-lastmod: 2021-01-17T00:26:25
+type: note
+alias: depression-black-sun
+created: '2021-01-17'
+lastmod: '2021-01-17'
 title: Black Sun
-summary: "The poetry of depression"
-tags: personal, mental_health
+summary: 'The poetics of depression'
+tags: personal, health
 ---
+
+# Black Sun
 
 After a break, I've returned to [[Mark Fisher]]'s _Ghosts Of My Life_; a book I'm not even 100 pages in, but a book I can already feel the influence of.
 

@@ -1,4 +1,15 @@
 ---
+type: note
+alias: personal-prompts
+title: Prompts for self
+summary: 'Tools of r'
+tags: 
+created: '2021-01-22'
+lastmod: '2021-01-22'
+---
+
+# Prompts for self
+---
 lastmod: 2021-01-05T21:45:06
 title: Prompts
 summary: "Tools for reflection."

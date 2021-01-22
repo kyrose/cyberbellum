@@ -1,9 +1,14 @@
 ---
-lastmod: 2021-01-06T16:07:06
+type: note
+alias: rituals
 title: Rituals
-summary: "Actions done with intention to create meaning and purpose in life" 
-tags: personal
+summary: 'Actions done with intention to create meaning and purpose in life'
+tags: personal, rituals
+created: 2021-01-06
+lastmod: 2021-01-06
 ---
+
+# Rituals
 
 ## Read without the internet
 Give a text my full attention while reading a section or reading for the block of time I've planned to read. Do not immediately look up unfamiliar terms and concepts introduced in the text, even when particular ideas appear pivotal to how it's interpreted. Instead, mark in the text or take note of the unfamiliar and look them up afterwards. Use context clues to roughly understand new ideas. If what I learn about an idea later fundamentally changes my understanding, then re-read the text.

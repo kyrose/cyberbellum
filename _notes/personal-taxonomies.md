@@ -1,9 +1,14 @@
 ---
-lastmod: 2021-01-06T20:15:21
-title: taxonomies
-summary: ""
+type: note
+alias: personal-taxonomies
+title: Taxonomies
+summary: ''
 tags: personal
+created: '2021-01-06'
+lastmod: '2021-01-06'
 ---
+
+# Taxonomies
 
 Perception (Self, Society, Species, Cosmos)
 

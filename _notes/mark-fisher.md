@@ -1,9 +1,11 @@
-
 ---
-lastmod: 2020-12-25T13:02:49+00:00
+type: note
+alias: mark-fisher
+created: 2020-12-25
+lastmod: 2020-01-22
 title: Mark Fisher
-summary: ""
-tags: index
+summary: ''
+tags: people
 ---
 
 Blogged at [k-punk.abstractdynamics.org][k-punk]

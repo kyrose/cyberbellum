@@ -1,15 +1,13 @@
 ---
-type: note
+type: art_note
 destFolder: /
-nameFormat: <<alias>>
+nameFormat: art--<<alias>>
 
 alias: 
-title: 
+title:
 summary: ''
-tags:
+tags: art
 
 created: <<date>>
 lastmod: <<date>>
 ---
-
-# 

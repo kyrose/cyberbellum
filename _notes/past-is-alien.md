@@ -1,9 +1,14 @@
 ---
-lastmod: 2021-01-09T12:47:38
-title: '"The Past is an Alien Planet"'
-summary: "separation in time"
-tags: time
+type: note
+alias: past-is-alien
+title: '"The past is an alien planet"'
+summary: ''
+tags: time, mark-fisher, ursula-le-guin
+created: 2021-01-09
+lastmod: 2021-01-09
 ---
+
+# "The past is an alien planet"
 
 The word "alien" invokes images of the midnight expanses of space, unfathomable distances, faraway planets. To be alien, it would seem, means to be separated by distance. But distance isn't the only thing that creates differences that would make us alien to another: time does the very same.
 

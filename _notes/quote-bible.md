@@ -1,9 +1,14 @@
 ---
-lastmod: 2021-01-17T00:27:30
-title: A Bible
-summary: "All the words and sentences that have been like the blast of a trumpet"
+type: note
+alias: quote-bible
+title: A bible of my own
+summary: 'All the words and sentences that have been like the blast of a trumpet'
 tags: personal, quotes
+created: 2021-01-17
+lastmod: 2021-01-22
 ---
+
+# A bible of my own
 
 >Make your own bible. Select and collect all the words and sentences that in all your readings have been to you like the blast of a trumpet.
 >- Ralph Waldo Emerson
