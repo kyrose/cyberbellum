@@ -1,0 +1,14 @@
+// Editor mode
+.cm-s-obsidian pre.HyperMD-codeblock {
+  color: #E11586;
+  font-family: 'Fira Code';
+  font-size: : 14px;
+  line-height: 1.5;
+}
+
+// Preview mode
+.markdown-preview-view code {
+  color: #E11586;
+  font-family: "Fira Code";
+  font-size: 14px;
+}
