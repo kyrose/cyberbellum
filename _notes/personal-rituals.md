@@ -1,6 +1,6 @@
 ---
 type: note
-alias: rituals
+alias: personal-rituals
 title: Rituals
 summary: 'Actions done with intention to create meaning and purpose in life'
 tags: personal, rituals

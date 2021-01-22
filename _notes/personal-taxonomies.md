@@ -9,6 +9,7 @@ lastmod: '2021-01-06'
 ---
 
 # Taxonomies
+Different approaches to thinking about the self, to improve [[personal-rituals|personal rituals]]
 
 Perception (Self, Society, Species, Cosmos)
 

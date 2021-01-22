@@ -1,12 +1,14 @@
 ---
 type: note
-alias: mark-fisher
+alias: Mark Fisher
 created: 2020-12-25
 lastmod: 2020-01-22
 title: Mark Fisher
 summary: ''
-tags: people
+tags: #people
 ---
+
+# Mark Fisher
 
 Blogged at [k-punk.abstractdynamics.org][k-punk]
 

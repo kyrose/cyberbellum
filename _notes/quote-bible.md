@@ -21,7 +21,8 @@ lastmod: 2021-01-22
 
 "Looking into the cool tepid vista of the rest of my life."
 
-"...we are the subjects of an experiment which no one is consciously really conducting. What is the nature of this experiment? Well I think it is to see what a kind of 'electro-libidinal parasite' can do to you."
+"...we are the subjects of an experiment which no one is consciously really conducting. What is the nature of this experiment? Well I think it is to see what a kind of 'electro-libidinal parasite' can do to you."[^3]
 
-[^1]: Mark Fisher, _Capitalist Realism_
+[^1]: [[Mark Fisher]], _Capitalist Realism_
 [^2]:Niels Bohr
+[^3]:See note: _[[time-is-out-of-joint|Time is out of joint]]_

@@ -2,19 +2,13 @@
 type: note
 alias: personal-prompts
 title: Prompts for self
-summary: 'Tools of r'
-tags: 
+summary: 'Tools of self-reflection'
+tags: personal, prompts, writing
 created: '2021-01-22'
 lastmod: '2021-01-22'
 ---
 
 # Prompts for self
----
-lastmod: 2021-01-05T21:45:06
-title: Prompts
-summary: "Tools for reflection."
-tags: prompts
----
 
 1. What have been the five best days of your life thus far?
 2. What is the best advice you've ever received?
