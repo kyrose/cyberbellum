@@ -1,6 +1,6 @@
 
 ---
-type: note
+type: art
 alias: high-expectations-of-art
 created: '2021-12-13'
 lastmod: '2021-12-13'

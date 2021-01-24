@@ -1,14 +1,15 @@
-// Editor mode
-.cm-s-obsidian pre.HyperMD-codeblock {
-  color: #E11586;
+/* Editor mode */
+.cm-s-obsidian pre.HyperMD-codeblock,
+.markdown-preview-view code {
   font-family: 'Fira Code';
   font-size: : 14px;
   line-height: 1.5;
 }
 
-// Preview mode
+.cm-s-obsidian span.cm-inline-code,
 .markdown-preview-view code {
-  color: #E11586;
-  font-family: "Fira Code";
-  font-size: 14px;
+  color: #CD00CD;
+  background-color: none;
+  border: 1px solid #222;
+  border-radius: .4em;
 }

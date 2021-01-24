@@ -1,7 +1,7 @@
 ---
 type: art_note
 destFolder: /
-nameFormat: art--<<alias>>
+nameFormat: art.<<alias>>
 
 alias: 
 title:

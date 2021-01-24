@@ -7,7 +7,7 @@
   --interactive-accent: #a3b7cd;
 }
 .theme-dark {
-  --bg-color: 0, 0, 0;
+  --bg-color: 60, 60, 60;
   --text-color: 240, 240, 240;
   --interactive-accent-rgb: 163, 183, 205;
   --interactive-accent: #a3b7cd;
@@ -30,15 +30,17 @@
 }
 
 ::selection, .CodeMirror-selected, .CodeMirror-selectedtext {
-  background: var(--text-normal) !important;
-  color: var(--background-primary) !important;
+  background: #e1ff32 !important;
+  color: #000 !important;
 }
 
 h1,h2,h3,h4,h5,strong {font-weight:var(--bold-weight);}
 h1,h2,h3,h4 {letter-spacing:-0.02em;}
 
-/* I don't want a titlebar */
-.titlebar { display: none; }
+.titlebar {
+  z-index: 5000;
+}
+
 body { padding-top: 0 !important; }
 
 body, input, button, .cm-s-obsidian .cm-formatting-hashtag, .cm-s-obsidian {

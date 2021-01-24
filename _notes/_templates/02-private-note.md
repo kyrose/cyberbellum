@@ -11,4 +11,4 @@ created: <<date>>
 lastmod: <<date>>
 ---
 
-# <<title>>
+# 

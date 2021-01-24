@@ -30,7 +30,7 @@ GitHub.sublime-settings  # package stores token in file
 
 # Obsidian
 .trash/
-plugins/
+**/.obsidian/plugins/
 **/workspace
 workspaces.json
 
