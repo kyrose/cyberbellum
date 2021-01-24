@@ -10,6 +10,9 @@
 .markdown-preview-view code {
   color: #CD00CD;
   background-color: none;
-  border: 1px solid #222;
   border-radius: .4em;
+}
+
+.markdown-preview-view code {
+  border: 1px solid #222;
 }
