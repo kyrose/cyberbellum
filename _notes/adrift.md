@@ -1,11 +1,10 @@
 ---
-type: note
 alias: adrift
 title: Adrift
-summary: 'Moving through life untethered'
+summary: Moving through life untethered
 tags: personal
-created: 2021-12-09
-lastmod: 2021-12-09
+created: 2020-12-09T00:00:00-08:00
+lastmod: 2021-01-23T21:02:29-08:00
 ---
 
 # Adrift
