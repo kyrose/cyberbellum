@@ -1,14 +1,15 @@
 ---
-type: note
 alias: Mark Fisher
-created: 2020-12-25
-lastmod: 2020-01-22
+created: 2020-12-25T00:00:00-08:00
+lastmod: 2021-01-31T14:26:39-08:00
 title: Mark Fisher
-summary: ''
-tags: #people
+summary: 
+tags: null
 ---
 
-# Mark Fisher
+2021-01-31: I cried about Fisher's suicide. It's not the first time. I hope he knew/knows[^0] how incredible he was. That the future feels like it's worth fighting for is due, in a large part, to him.
+
+[^0]: do I believe in an [[afterlife]] or not?
 
 Blogged at [k-punk.abstractdynamics.org][k-punk]
 
