@@ -1,14 +1,11 @@
 ---
-type: note
 alias: time-is-out-of-joint
 title: The time is out of joint
-summary: ''
+summary: 
 tags: mark-fisher
-created: '2021-01-22'
-lastmod: '2021-01-22'
+created: 2021-01-22T00:00:00-08:00
+lastmod: 2021-02-02T03:47:57-08:00
 ---
-
-# The time is out of joint
 
 <iframe src="https://www.youtube.com/embed/8Bk0kkRPmjE" class="resize-both" style="height: 418px; width: 594px;"></iframe>
 
