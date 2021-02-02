@@ -4,10 +4,8 @@ title: Adrift
 summary: Moving through life untethered
 tags: personal
 created: 2020-12-09T00:00:00-08:00
-lastmod: 2021-01-23T21:02:29-08:00
+lastmod: 2021-02-02T03:47:35-08:00
 ---
-
-# Adrift
 
 Adrift is the word that always comes to mind when describing myself.
 
