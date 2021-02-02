@@ -1,9 +1,10 @@
 ---
 created: 2021-02-02T03:56:52-08:00
 title: Vocab list
-lastmod: 2021-02-02T04:10:02-08:00
+lastmod: 2021-02-02T04:12:10-08:00
 ---
 
+- [ ] coevals
 - [ ] (working-class) edgeland
 - [ ] polemic
 - [ ] unheimlich
